@@ -376,7 +376,7 @@ main {
 
 .footer-wrapper p {
   margin: 0;
-
+  font-size: 1.6rem;
   font-weight: 300;
   color: #0f113a;
   font-family: var(--font-secondary);

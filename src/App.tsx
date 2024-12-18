@@ -8,6 +8,8 @@ import FistGroup from './assets/Group434(1).png'
 import PersonEconomy from './assets/personEconomy.png'
 import IconMobile from './assets/iconMobile.png'
 import HeroImgaMobile from './assets/image-hero-mobile.png'
+import SecondGroup from './assets/Group433.png'
+import ThirdGroup from './assets/Group432(1).png'
 function App() {
   return (
     <main>
@@ -97,21 +99,22 @@ function App() {
               </p>
             </div>
             <div>
-              <img src={FistGroup} alt="" />
-              <h4>Juntos, mais fortes.</h4>
+              <img src={SecondGroup} alt="" />
+              <h4>Os melhores imóveis, seus.</h4>
               <p>
-                Somando o dinheiro de milhares de assinantes, todos os meses o
-                grupo ganha o poder de pagar à vista por novos imóveis, o que
-                permite negociar melhor o valor e aproveitar oportunidades.{' '}
+                Experts do mercado imobiliário estão atentos às oportunidades de
+                compra em todo o Brasil e escolhem as melhores administradoras
+                de imóveis para cuidar das locações e do bem.
               </p>
             </div>
             <div>
-              <img src={FistGroup} alt="" />
-              <h4>Juntos, mais fortes.</h4>
+              <img src={ThirdGroup} alt="" />
+              <h4>Hiper diluição de risco.</h4>
               <p>
-                Somando o dinheiro de milhares de assinantes, todos os meses o
-                grupo ganha o poder de pagar à vista por novos imóveis, o que
-                permite negociar melhor o valor e aproveitar oportunidades.{' '}
+                Os riscos de vacância ou inadimplência, típicos de imóveis, são
+                diluídos, pois você será dono de apenas uma fração de cada
+                imóvel e o aluguel dos seus outros imóveis pode cobrir os
+                custos.
               </p>
             </div>
           </div>
