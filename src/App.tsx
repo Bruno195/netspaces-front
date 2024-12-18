@@ -7,7 +7,7 @@ import Card from './assets/Group409.png'
 import FistGroup from './assets/Group434(1).png'
 import PersonEconomy from './assets/personEconomy.png'
 import IconMobile from './assets/iconMobile.png'
-import HeroImgaMobile from './assets/image-hero-mobile.svg'
+import HeroImgaMobile from './assets/image-hero-mobile.png'
 import SecondGroup from './assets/Group433.png'
 import ThirdGroup from './assets/Group432(1).png'
 function App() {
