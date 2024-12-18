@@ -82,11 +82,11 @@ main {
   display: none;
   @media screen and (min-width: 260px) and (max-width: 768px) {
     display: block;
-    background-size: cover;
+    background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
-    width: 230px;
-    height: 230px;
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -156,11 +156,11 @@ main {
 }
 
 .features-wrapper img {
-  width: 44rem;
-  height: 44rem;
+  width: 41rem;
+  height: 49rem;
   @media screen and (max-width: 992px) {
     width: 28rem;
-    height: 28rem;
+    height: 32rem;
   }
 }
 
