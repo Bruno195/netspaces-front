@@ -9,3 +9,5 @@
 
 - npm run dev
 ```
+
+**Acesso o projeto**: `(https://netspace-landing-page.netlify.app/)`
