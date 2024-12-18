@@ -1,0 +1,124 @@
+import './App.css'
+import LogoWithName from './assets/logo_with_name.svg'
+import IconNetspace from './assets/Group 398.svg'
+import InfoIcon from './assets/Group 397.svg'
+import PersonImage from './assets/image 23.svg'
+import Card from './assets/aps.svg'
+import FistGroup from './assets/Group434(1).png'
+import PersonEconomy from './assets/personEconomy.png'
+import IconMobile from './assets/iconMobile.png'
+import HeroImgaMobile from './assets/image-hero-mobile.png'
+function App() {
+  return (
+    <main>
+      {/* First screen */}
+      <section className="hero">
+        <div className="hero-content">
+          <img src={LogoWithName} alt="Logo com nome" />
+          <h1>A primeira assinatura de patrimônio imobiliário</h1>
+          <div className="container-paragraph">
+            <h3>
+              Acumule frações de imóveis reais mensalmente e veja seu patrimônio
+              crescer. Aproveite os descontos exclusivos de lançamento com
+              planos de R$ 5,90 até R$ 1999,00.{' '}
+            </h3>
+            <img id="container-paragraph-image" src={HeroImgaMobile} alt="" />
+          </div>
+          <button>Registrar meu lugar na fila</button>
+        </div>
+        <div className="img-hero-id-desktop">
+          <div id="hero-img"></div>
+        </div>
+      </section>
+
+      {/* Second screen */}
+      <section className="feature">
+        <div className="features-wrapper">
+          <img src={Card} alt="" />
+        </div>
+
+        <div className="features-content">
+          <div className="feature-container">
+            <h3 className="feature-item-1">Exclusivo no lançamento</h3>
+            <h2 className="feature-item-2">
+              Até 35% Off na compra do primeiro imóvel*
+            </h2>
+            <p className="feature-item-3">
+              Reserve sua assinatura antes do lançamento e todas as frações do
+              primeiro imóvel, adquiridas mensalmente, serão compradas por um
+              valor muito abaixo do valor de mercado. O bom negócio imobiliário
+              se faz na compra, e a gente sabe disso.
+            </p>
+            <p className="feature-item-4">
+              De: R$ 250.000,00 <span id="span-text">Por:</span>
+              <span id="span-price"> R$ 162.500,00</span>
+            </p>
+
+            <div className="feature-item-5-desktop">
+              <div className="container-image-icon">
+                <img src={IconNetspace} alt="" />
+
+                <img src={InfoIcon} alt="" />
+              </div>
+              <img src={PersonImage} alt="" />
+            </div>
+
+            <div className="feature-item-5-mobile">
+              <div className="container-image-icon">
+                <img src={IconMobile} alt="" />
+
+                <img src={PersonEconomy} alt="" />
+              </div>
+            </div>
+            <p className="feature-item-6">
+              * os descontos são limitados às reservas de planos de R$ 49,00 ou
+              mais, e até que se esgotem as frações do primeiro imóvel deste
+              plano de assinatura.{' '}
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* third screen */}
+      <section className="footer">
+        <div className="footer-wrapper">
+          <h3>Descubra o poder do grupo!</h3>
+          <h2>
+            Milhares de assinantes, juntos, compram imóveis à vista com preços
+            melhores.
+          </h2>
+          <div className="footer-container">
+            <div>
+              <img src={FistGroup} alt="" />
+              <h4>Juntos, mais fortes.</h4>
+              <p>
+                Somando o dinheiro de milhares de assinantes, todos os meses o
+                grupo ganha o poder de pagar à vista por novos imóveis, o que
+                permite negociar melhor o valor e aproveitar oportunidades.{' '}
+              </p>
+            </div>
+            <div>
+              <img src={FistGroup} alt="" />
+              <h4>Juntos, mais fortes.</h4>
+              <p>
+                Somando o dinheiro de milhares de assinantes, todos os meses o
+                grupo ganha o poder de pagar à vista por novos imóveis, o que
+                permite negociar melhor o valor e aproveitar oportunidades.{' '}
+              </p>
+            </div>
+            <div>
+              <img src={FistGroup} alt="" />
+              <h4>Juntos, mais fortes.</h4>
+              <p>
+                Somando o dinheiro de milhares de assinantes, todos os meses o
+                grupo ganha o poder de pagar à vista por novos imóveis, o que
+                permite negociar melhor o valor e aproveitar oportunidades.{' '}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  )
+}
+
+export default App

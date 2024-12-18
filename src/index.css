@@ -1,0 +1,29 @@
+:root {
+  --font-primary: 'Manrope', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+  --primary-color: #ffffff;
+  --background-secondary: #f9f9f9;
+  --font-size-heading: 4.8rem;
+  --font-size-subheading: 2.4rem;
+  --font-size-16: 1.6rem;
+  --font-size-18: 1.8rem;
+  --text-primary-color: #ff3e7d;
+  --text-secondary-color: #071d49;
+  --text-subtitle-color: #0f113a;
+  --button-color: #558eff;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-primary);
+  background-color: var(--primary-color);
+}
