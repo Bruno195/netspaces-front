@@ -24,13 +24,7 @@ function App() {
               crescer. Aproveite os descontos exclusivos de lançamento com
               planos de R$ 5,90 até R$ 1999,00.{' '}
             </h3>
-            <img
-              id="container-paragraph-image"
-              src={HeroImgaMobile}
-              alt=""
-              loading="lazy"
-              srcSet={`${HeroImgaMobile} 1x, ./assets/image-hero-mobile@2x.png 2x`}
-            />
+            <img id="container-paragraph-image" src={HeroImgaMobile} alt="" />
           </div>
           <button>Registrar meu lugar na fila</button>
         </div>
@@ -42,12 +36,7 @@ function App() {
       {/* Second screen */}
       <section className="feature">
         <div className="features-wrapper">
-          <img
-            src={Card}
-            alt=""
-            loading="lazy"
-            srcSet={`${Card} 1x, ./assets/Group409@2x.png 2x`}
-          />
+          <img src={Card} alt="" />
         </div>
 
         <div className="features-content">
@@ -69,21 +58,18 @@ function App() {
 
             <div className="feature-item-5-desktop">
               <div className="container-image-icon">
-                <img src={IconNetspace} alt="" loading="lazy" />
-                <img src={InfoIcon} alt="" loading="lazy" />
+                <img src={IconNetspace} alt="" />
+
+                <img src={InfoIcon} alt="" />
               </div>
-              <img
-                src={PersonImage}
-                alt=""
-                loading="lazy"
-                srcSet={`${PersonImage} 1x, ./assets/image 23@2x.svg 2x`}
-              />
+              <img src={PersonImage} alt="" />
             </div>
 
             <div className="feature-item-5-mobile">
               <div className="container-image-icon">
-                <img src={IconMobile} alt="" loading="lazy" />
-                <img src={PersonEconomy} alt="" loading="lazy" />
+                <img src={IconMobile} alt="" />
+
+                <img src={PersonEconomy} alt="" />
               </div>
             </div>
             <p className="feature-item-6">
@@ -104,12 +90,7 @@ function App() {
           </h2>
           <div className="footer-container">
             <div>
-              <img
-                src={FistGroup}
-                alt=""
-                loading="lazy"
-                srcSet={`${FistGroup} 1x, ./assets/Group434(1)@2x.png 2x`}
-              />
+              <img src={FistGroup} alt="" />
               <h4>Juntos, mais fortes.</h4>
               <p>
                 Somando o dinheiro de milhares de assinantes, todos os meses o
@@ -118,12 +99,7 @@ function App() {
               </p>
             </div>
             <div>
-              <img
-                src={SecondGroup}
-                alt=""
-                loading="lazy"
-                srcSet={`${SecondGroup} 1x, ./assets/Group433@2x.png 2x`}
-              />
+              <img src={SecondGroup} alt="" />
               <h4>Os melhores imóveis, seus.</h4>
               <p>
                 Experts do mercado imobiliário estão atentos às oportunidades de
@@ -132,12 +108,7 @@ function App() {
               </p>
             </div>
             <div>
-              <img
-                src={ThirdGroup}
-                alt=""
-                loading="lazy"
-                srcSet={`${ThirdGroup} 1x, ./assets/Group432(1)@2x.png 2x`}
-              />
+              <img src={ThirdGroup} alt="" />
               <h4>Hiper diluição de risco.</h4>
               <p>
                 Os riscos de vacância ou inadimplência, típicos de imóveis, são
