@@ -1,6 +1,6 @@
 main {
   position: relative;
-  margin: 0 auto; /* Centraliza horizontalmente */
+  margin: 0 auto;
 }
 
 /* First Screen */
@@ -82,9 +82,11 @@ main {
   display: none;
   @media screen and (min-width: 260px) and (max-width: 768px) {
     display: block;
-    object-fit: cover;
-    width: 15rem;
-    height: 25rem;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 200px;
   }
 }
 
@@ -110,7 +112,7 @@ main {
 }
 
 .hero-content button:hover {
-  background-color: #4079d9; /* Tom mais escuro do botão */
+  background-color: #4079d9;
 }
 
 .img-hero-id-desktop {
@@ -123,11 +125,11 @@ main {
 }
 
 #hero-img {
-  background-image: url('./assets/Hero_Image.svg'); /* Caminho da imagem */
-  background-size: cover; /* Garante que a imagem preencha o container */
+  background-image: url('./assets/Hero_Image.svg');
+  background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-  height: 100%; /* Define altura fixa */
+  height: 100%;
   width: 100%;
 }
 
@@ -256,7 +258,7 @@ main {
   display: flex;
   padding-top: 2rem;
   position: relative;
-  justify-content: space-between; /* Alinha os itens ao topo */
+  justify-content: space-between;
   padding-bottom: 0.1rem;
 
   @media screen and (max-width: 560px) {
